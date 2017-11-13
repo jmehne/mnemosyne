@@ -67,7 +67,7 @@
           <enum>Qt::StrongFocus</enum>
          </property>
          <property name="contextMenuPolicy">
-          <enum>Qt::NoContextMenu</enum>
+          <enum>Qt::ActionsContextMenu</enum>
          </property>
          <property name="acceptDrops">
           <bool>false</bool>
@@ -108,7 +108,7 @@
           <enum>Qt::StrongFocus</enum>
          </property>
          <property name="contextMenuPolicy">
-          <enum>Qt::NoContextMenu</enum>
+          <enum>Qt::ActionsContextMenu</enum>
          </property>
          <property name="acceptDrops">
           <bool>false</bool>

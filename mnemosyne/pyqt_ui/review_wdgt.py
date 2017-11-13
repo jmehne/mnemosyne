@@ -270,6 +270,10 @@ class ReviewWdgt(QtWidgets.QWidget, QAOptimalSplit, ReviewWidget, Ui_ReviewWdgt)
         parent.setCentralWidget(self)
         self.setupUi(self)
         QAOptimalSplit.setup(self)
+        action = QtWidgets.QAction("&test", self, shortcut="e")
+        self.answer.addAction(action)
+        self.question.addAction(action)
+
 
         # TODO: Move this to designer, once QButtonGroup elements can be set
         # to custom ID from designer.
